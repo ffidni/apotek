@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main-bg {
+  background-color: rgb(230, 248, 231);
+}
+
+.green {
+  color: #01AB2C;
+}
+
+.card {
+  background-color: white;
+  padding: 2em;
+  width: 20em;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1)
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #01AB2C;
+  color: white;
+  padding: .3em;
+}
+
+.btn:hover {
+  background-color: #05982a;
+
+}
+
+.cart {
+}
+
+.input {
+  padding: .2em .3em;
+  width: 18em;
+}
+
+.item {
+  width: 25em;
+}
